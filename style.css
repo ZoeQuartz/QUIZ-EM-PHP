@@ -1,0 +1,156 @@
+:root {
+    --cor-primaria: #4f46e5;
+    --cor-acerto: #16a34a;
+    --cor-erro: #dc2626;
+    --cor-fundo: #f1f5f9;
+    --cor-card: #ffffff;
+    --texto: #1e293b;
+    --raio: 12px;
+}
+
+* {
+    box-sizing: border-box;
+}
+.banner {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto 20px;
+    border-radius: var(--raio);
+}
+
+body {
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    background: var(--cor-fundo);
+    color: var(--texto);
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+h1 {
+    text-align: center;
+    color: var(--cor-primaria);
+}
+
+/* Placar */
+.placar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.placar .item {
+    background: var(--cor-card);
+    border-radius: var(--raio);
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.placar .item span {
+    display: block;
+    font-size: 0.85rem;
+    color: #64748b;
+}
+
+.placar .item strong {
+    font-size: 1.8rem;
+}
+
+.placar .acerto strong { color: var(--cor-acerto); }
+.placar .erro strong { color: var(--cor-erro); }
+
+/* Resultado */
+.resultado {
+    background: var(--cor-card);
+    border-radius: var(--raio);
+    padding: 16px 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.resultado a {
+    color: var(--cor-primaria);
+    font-weight: 600;
+}
+
+/* Questões */
+.questao {
+    background: var(--cor-card);
+    border-left: 6px solid #cbd5e1;
+    border-radius: var(--raio);
+    padding: 16px 20px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.questao.certa { border-left-color: var(--cor-acerto); }
+.questao.errada { border-left-color: var(--cor-erro); }
+
+.questao p:first-child {
+    font-weight: 600;
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    padding: 6px 0;
+    cursor: pointer;
+}
+
+.feedback {
+    margin-bottom: 0;
+    font-size: 0.95rem;
+}
+
+.questao.certa .feedback { color: var(--cor-acerto); }
+.questao.errada .feedback { color: var(--cor-erro); }
+
+/* Botão */
+button {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background: var(--cor-primaria);
+    border: none;
+    border-radius: var(--raio);
+    cursor: pointer;
+    transition: transform 0.15s, background 0.2s;
+}
+
+button:hover {
+    background: #4338ca;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 480px) {
+    .placar {
+        grid-template-columns: 1fr;
+    }
+}
+
+.botao-reiniciar {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background: var(--cor-acerto);
+    border-radius: var(--raio);
+    text-decoration: none;
+    transition: transform 0.15s, background 0.2s;
+}
+
+.botao-reiniciar:hover {
+    background: #15803d;
+    transform: translateY(-2px);
+}

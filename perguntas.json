@@ -1,0 +1,53 @@
+
+[
+    {
+        "Pergunta": "Em qual país surgiram os Jogos Olímpicos da Antiguidade?",
+        "alternativa": ["Itália", "Grécia", "Egito", "França"],
+        "resposta": "Grécia"
+    },
+    {
+        "Pergunta": "A cada quantos anos são realizados os Jogos Olímpicos de Verão?",
+        "alternativa": ["2 anos", "3 anos", "4 anos", "5 anos"],
+        "resposta": "4 anos"
+    },
+    {
+        "Pergunta": "Qual cidade brasileira sediou os Jogos Olímpicos de 2016?",
+        "alternativa": ["São Paulo", "Brasília", "Salvador", "Rio de Janeiro"],
+        "resposta": "Rio de Janeiro"
+    },
+    {
+        "Pergunta": "Quantos anéis compõem o símbolo olímpico?",
+        "alternativa": ["4", "5", "6", "7"],
+        "resposta": "5"
+    },
+    {
+        "Pergunta": "Qual atleta jamaicano ficou mundialmente conhecido por seus recordes nos 100 e 200 metros rasos?",
+        "alternativa": ["Carl Lewis", "Usain Bolt", "Mo Farah", "Yohan Blake"],
+        "resposta": "Usain Bolt"
+    },
+    {
+        "Pergunta": "Qual atleta brasileiro conquistou três medalhas de ouro olímpicas no salto triplo?",
+        "alternativa": ["Joaquim Cruz", "Adhemar Ferreira da Silva", "Nelson Prudêncio", "João do Pulo"],
+        "resposta": "Adhemar Ferreira da Silva"
+    },
+    {
+        "Pergunta": "Em qual modalidade olímpica os atletas competem em provas que combinam natação, ciclismo e corrida?",
+        "alternativa": ["Pentatlo moderno", "Decatlo", "Triatlo", "Heptatlo"],
+        "resposta": "Triatlo"
+    },
+    {
+        "Pergunta": "Qual cidade sediou os Jogos Olímpicos de Verão de 2024?",
+        "alternativa": ["Londres", "Tóquio", "Los Angeles", "Paris"],
+        "resposta": "Paris"
+    },
+    {
+        "Pergunta": "Qual esporte utiliza aparelhos como argolas, barras paralelas e cavalo com alças?",
+        "alternativa": ["Ginástica artística", "Ginástica rítmica", "Atletismo", "Levantamento de peso"],
+        "resposta": "Ginástica artística"
+    },
+    {
+        "Pergunta": "Qual nadador norte-americano se tornou o atleta com o maior número de medalhas olímpicas da história?",
+        "alternativa": ["Mark Spitz", "Ryan Lochte", "Michael Phelps", "Caeleb Dressel"],
+        "resposta": "Michael Phelps"
+    }
+]
